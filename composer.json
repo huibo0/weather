@@ -1,0 +1,19 @@
+{
+    "name": "vendor\/weather",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huibo",
+            "email": "huibo1@100tal.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Weather\\": "src"
+        }
+    }
+}
